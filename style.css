@@ -1,0 +1,122 @@
+
+
+body{
+    background-color:#fff;
+}   
+
+    
+.header-section {
+    padding-bottom: 50px;
+}
+.shoe {
+    position: relative;
+    top: 1;
+    height: 100vh;
+}
+.piece:not(.outsoleg) {
+    position: absolute;
+    
+}
+
+.midsole {
+    width: 30%;
+    left: 35%;
+    top: 520px;
+}
+.heel {
+    width: 30%;
+    left: -2%;
+    bottom: 540px;
+}
+.outsole {
+    width: 80%;
+    left: 0%;
+}
+.outsolez {
+    width: 60%;
+    left: 18%;
+    top: 650px;
+}
+.meowmeow {
+    width: 80%;
+    left: -15%;
+    top: 10vh;
+}
+.meowmeowz {
+    width: 30%;
+    left: 65%;
+    top: 33%;
+}
+.meowmeowa {
+    width: 30%;
+    left: 65%;
+    bottom: 53%;
+}
+
+h1, h2, p, li {
+    max-width: none;
+   
+}
+
+@media only screen and (min-width: 738px) {
+    
+        
+    body { 
+          background-color: #ffffff;
+          color: rgb(0, 0, 0);
+          margin: 5vh;
+        
+        }
+        
+        .header-section {
+          padding-bottom: 50px;
+        }
+        .shoe {
+          position: relative;
+      
+          height: 90vh;
+          top: 0;
+        }
+        .piece:not(.outsoleg) {
+          position: absolute;
+          
+        }
+        
+        .midsole {
+          width: 19%;
+          left: 75%;
+        }
+        .heel {
+          width: 19%;
+          left: 8%;
+          bottom: 5vh;
+        }
+        .outsole {
+          width: 30%;
+          left: 40%;
+        }
+        .outsolez {
+          width: 20%;
+          left: 75%;
+          top: 37vh;
+        }
+        .meowmeow {
+          width: 40%;
+          left: 5%;
+          bottom: 7vh;
+        }
+        .meowmeowz {
+          width: 20%;
+          left: 45%;
+          bottom: 33%;
+        }
+        .meowmeowa {
+          width: 20%;
+          left: 45%;
+          bottom: 10%;
+        }
+        
+        h1, h2, p, li {
+          max-width: none;
+        }
+    }

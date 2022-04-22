@@ -1,81 +1,26 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" integrity="sha512-v8B8T8l8JiiJRGomPd2k+bPS98RWBLGChFMJbK1hmHiDHYq0EjdQl20LyWeIs+MGRLTWBycJGEGAjKkEtd7w5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/EasePack.min.js" integrity="sha512-g6j69ueqU+Qugt9lF/SS7s09oNr+EEuHYT6RDx7+M8B0Gyo5i0GV3s7Ow/LD5YWPmB7CmrGHEjI3SjU6iCufCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/CustomEase.min.js" integrity="sha512-qZv4ep+dIQYT+4NhYpMYZwICt4rGGMZrIEZehPCUNY6T9qesoAnzqgNJgU3sWnnvaoz9MfbsUROtHv9WeSqd1Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-    <title>man groove</title>
-    <style>
-        body { 
-          background-color: #ffffff;
-          color: rgb(0, 0, 0);
-          margin: 5vh;
-        
-        }
-        
-        .header-section {
-          padding-bottom: 50px;
-        }
-        .shoe {
-          position: relative;
-      
-          height: 90vh;
-        }
-        .piece:not(.outsoleg) {
-          position: absolute;
-          
-        }
-        
-        .midsole {
-          width: 19%;
-          left: 75%;
-        }
-        .heel {
-          width: 19%;
-          left: 8%;
-          bottom: 5vh;
-        }
-        .outsole {
-          width: 30%;
-          left: 40%;
-        }
-        .outsolez {
-          width: 20%;
-          left: 75%;
-          top: 37vh;
-        }
-        .meowmeow {
-          width: 40%;
-          left: 5%;
-          bottom: 7vh;
-        }
-        .meowmeowz {
-          width: 20%;
-          left: 45%;
-          bottom: 33%;
-        }
-        .meowmeowa {
-          width: 20%;
-          left: 45%;
-          bottom: 9%;
-        }
-        
-        h1, h2, p, li {
-          max-width: none;
-        }
-    </style>
+    
+    <title>mangrove info</title>
+
 </head>
 <body>
    
-     <h1 style="display: flex; justify-content: center; align-items: flex-start; font-family: 'Fredoka One', cursive; font-size: 65px;"> MAN GROOVES ?</h1>
+     <h1 style="display: flex; justify-content: center; align-items: flex-start; font-family: 'Fredoka One', cursive; font-size: 65px;"> MAN GROOVES </h1>
      <br>
      <p style="display: flex; justify-content: center;  font-size: 25px;">Scroll down :)</p>
-
+     <br><br>
         <section  class="shoe">
-       
+     
         <img src="img/Asset 1.svg"   class="outsolez piece" alt="outsolez">
         <img src="img/Asset 2.svg" class="midsole piece" alt="midsole">
         <img src="img/Asset 5.svg"   class="meowmeow piece" alt="meowmeow">
@@ -101,11 +46,11 @@
         })
             .from(".outsole", { y: innerHeight * 1.5 })        
             .from(".meowmeow",  { y: innerHeight * 1.5 })
-            .from(".heel",  { y: innerHeight * 1.5 })
-            .from(".midsole",  { y: innerHeight * 1.5 }) 
-            .from(".outsolez",  { y: innerHeight * 1.5 })                   
             .from(".meowmeowz",  { y: innerHeight * 1.5 })
-            .from(".meowmeowa",  { y: innerHeight * 1.5 });
+            .from(".meowmeowa",  { y: innerHeight * 1.5 })
+            .from(".heel",  { y: innerHeight * 1.5 })
+            .from(".outsolez",  { y: innerHeight * 1.5 })
+            .from(".midsole",  { y: innerHeight * 1.5 });
            
         
     </script>
