@@ -21,12 +21,12 @@ body{
 .midsole {
     width: 30%;
     left: 35%;
-    top: 520px;
+    top: 60vh;
 }
 .heel {
     width: 30%;
     left: -2%;
-    bottom: 520px;
+    top: 34vh;
 }
 .outsole {
     width: 80%;
@@ -35,7 +35,7 @@ body{
 .outsolez {
     width: 60%;
     left: 18%;
-    top: 650px;
+    top: 75vh;
 }
 .meowmeow {
     width: 80%;
@@ -74,7 +74,7 @@ h1, h2, p, li {
         .shoe {
           position: relative;
       
-          height: 90vh;
+          height: 100vh;
           top: 0;
         }
         .piece:not(.outsoleg) {
@@ -109,12 +109,12 @@ h1, h2, p, li {
         .meowmeowz {
           width: 20%;
           left: 45%;
-          top:52vh;
+          top: 56vh;
         }
         .meowmeowa {
           width: 20%;
           left: 45%;
-          bottom: 10%;
+          bottom: 13vh;
         }
         
         h1, h2, p, li {
