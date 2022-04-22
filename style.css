@@ -10,8 +10,8 @@ body{
 }
 .shoe {
     position: relative;
-    top: 1;
-    height: 100vh;
+    margin-top: 5vh;
+    height: 95vh;
 }
 .piece:not(.outsoleg) {
     position: absolute;
@@ -26,7 +26,7 @@ body{
 .heel {
     width: 30%;
     left: -2%;
-    bottom: 540px;
+    bottom: 520px;
 }
 .outsole {
     width: 80%;
@@ -45,12 +45,12 @@ body{
 .meowmeowz {
     width: 30%;
     left: 65%;
-    top: 33%;
+    top: 36%;
 }
 .meowmeowa {
     width: 30%;
     left: 65%;
-    bottom: 53%;
+    bottom: 51%;
 }
 
 h1, h2, p, li {
