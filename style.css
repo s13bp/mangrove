@@ -84,7 +84,8 @@ h1, h2, p, li {
         
         .midsole {
           width: 19%;
-          left: 75%;
+          left: 76%;
+          top:2vh;
         }
         .heel {
           width: 19%;
@@ -108,7 +109,7 @@ h1, h2, p, li {
         .meowmeowz {
           width: 20%;
           left: 45%;
-          bottom: 33%;
+          top:52vh;
         }
         .meowmeowa {
           width: 20%;
